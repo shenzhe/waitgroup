@@ -1,0 +1,24 @@
+{
+  "name": "shenzhe/waitgroup",
+  "description": "swoole coroutine waitgroup",
+  "keywords": [
+    "swoole",
+    "coroutine",
+    "waitgroup"
+  ],
+  "authors": [
+    {
+      "name": "shenzhe",
+      "email": "shenzhe163@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WG\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-swoole": ">=4.2.9"
+  }
+}
